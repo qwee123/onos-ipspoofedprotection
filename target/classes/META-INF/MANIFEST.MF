@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1619440275067
+Build-Jdk: 11.0.10
+Built-By: root
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: IpSpoofedProtection
+Bundle-SymbolicName: nthu.wcislab.IpSpoofedProtection
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: nthu.wcislab.ipspoofedprotection;uses:="org.onosproject.
+ cfg,org.onosproject.core,org.onosproject.net,org.onosproject.net.device
+ ,org.onosproject.net.edge,org.onosproject.net.flow,org.onosproject.net.
+ host,org.onosproject.net.packet";version="1.0.0"
+Import-Package: org.onlab.packet;version="[2.5,3)",org.onosproject.cfg;v
+ ersion="[2.5,3)",org.onosproject.core;version="[2.5,3)",org.onosproject
+ .event;version="[2.5,3)",org.onosproject.net;version="[2.5,3)",org.onos
+ project.net.device;version="[2.5,3)",org.onosproject.net.edge;version="
+ [2.5,3)",org.onosproject.net.flow;version="[2.5,3)",org.onosproject.net
+ .host;version="[2.5,3)",org.onosproject.net.packet;version="[2.5,3)",or
+ g.slf4j;version="[1.7,2)"
+Require-Capability: osgi.service;filter:="(objectClass=org.onosproject.c
+ fg.ComponentConfigService)";effective:=active,osgi.service;filter:="(ob
+ jectClass=org.onosproject.core.CoreService)";effective:=active,osgi.ser
+ vice;filter:="(objectClass=org.onosproject.net.device.DeviceService)";e
+ ffective:=active,osgi.service;filter:="(objectClass=org.onosproject.net
+ .edge.EdgePortService)";effective:=active,osgi.service;filter:="(object
+ Class=org.onosproject.net.flow.FlowRuleService)";effective:=active,osgi
+ .service;filter:="(objectClass=org.onosproject.net.host.HostService)";e
+ ffective:=active,osgi.service;filter:="(objectClass=org.onosproject.net
+ .packet.PacketService)";effective:=active,osgi.extender;filter:="(&(osg
+ i.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee
+ ;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Service-Component: OSGI-INF/nthu.wcislab.ipspoofedprotection.IpSpoofedPr
+ otection.xml
+Tool: Bnd-4.1.0.201810181252
