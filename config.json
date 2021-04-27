@@ -1,0 +1,13 @@
+{
+    "apps": {
+        "nthu.wcislab.ipspoofedprotection": {
+            "EdgeDeviceConfig": {
+                "edgeDevices": [
+                    "of:0000a24369fdc04a",
+                    "of:00000e413967e549",
+                    "of:0000ea4b947a5b46"
+                ]
+            }
+        }
+    }
+}

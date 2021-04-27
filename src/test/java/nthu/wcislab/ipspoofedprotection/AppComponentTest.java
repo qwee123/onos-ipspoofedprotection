@@ -30,7 +30,6 @@ public class AppComponentTest {
     @Before
     public void setUp() {
         component = new IpSpoofedProtection();
-        component.cfgService = new ComponentConfigAdapter();
         component.activate();
     }
 

@@ -1,4 +1,7 @@
-nthu/wcislab/ipspoofedprotection/IpSpoofedProtection$LocalHostListener.class
 nthu/wcislab/ipspoofedprotection/IpSpoofedProtection.class
+nthu/wcislab/ipspoofedprotection/IpSpoofedProtection$EdgeDeviceConfigListener.class
+nthu/wcislab/ipspoofedprotection/IpSpoofedProtection$2.class
+nthu/wcislab/ipspoofedprotection/IpSpoofedProtection$LocalHostListener.class
 nthu/wcislab/ipspoofedprotection/IpSpoofedProtection$1.class
+nthu/wcislab/ipspoofedprotection/EdgeDeviceConfig.class
 nthu/wcislab/ipspoofedprotection/OsgiPropertyConstants.class
